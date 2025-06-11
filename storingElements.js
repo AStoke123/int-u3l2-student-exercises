@@ -14,12 +14,13 @@ let painting4 = document.querySelector(".painting-4");
 // 5. Create a variable called `title` that stores the title tag with using querySelector.
 let title = document.querySelector("title");
 
-
+console.log(painting3);
+console.log(painting4);
 
 
 // 6. Once tasks 1-5 are complete, uncomment the code below.
  painting1.style.width = "500px";
  painting2.style.animation = "mynewmove 10s infinite";
  painting3.style.animation = "dance 10s infinite";
- painting4.style.border = " 10px solid #0fd623";
+ //painting4.style.border = " 10px solid #0fd623";
  title.innerHTML = "MUHAHAHA!";
